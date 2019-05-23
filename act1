@@ -1,0 +1,28 @@
+puts " Welcome to the ATM!! "
+
+
+puts   " ******************************"
+puts   " *Enter your name -           *"
+          var1 = gets.chomp.to_i
+puts   " *Enter your Phone number     *"
+          var1 = gets.chomp.to_f
+puts   " ******************************"
+
+
+
+
+
+ puts "***********************************"
+ puts "*           MENU                  *"
+ puts "*1.Deposit                        *"
+ puts "*2.Withdraw                       *"
+ puts "*3.Check                          *"
+ puts "*4.Exit                           *"
+ puts "***********************************"
+
+if (1..4).include?(ans) 
+            else
+                puts"Incorrect selection"
+                                        
+            end
+ 
